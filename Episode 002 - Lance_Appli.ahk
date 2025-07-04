@@ -9,10 +9,8 @@
 ;exemple:
 ; #c::Run "Chrome"; Win + c to open Chrome
 
-#c:: Run "Chrome" ; Win + c to open Chrome
-#!a:: Run A_ProgramFiles "\AutoHotkey\v2\AutoHotkey.chm" ; Win + Alt + a to open AutoHotkey Wiki
+#!c:: Run "Chrome" ; Win + c to open Chrome
+#!y:: Run "https://www.youtube.com" ; Win + y to open YouTube
 
-#!y::Run "https://www.youtube.com" ; Win + Alt + y to open YouTube
-
-#!w:: Run "c:\users\" A_UserName "\downloads" ; Win + Alt + w to open Downloads folder
-
+#!d:: Run "c:\users\" A_UserName "\Downloads" ; Win + d to open Downloads folder
+#!a:: Run A_ProgramFiles "\AutoHotkey\v2\AutoHotkey.chm"
